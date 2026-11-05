@@ -46,7 +46,7 @@ button { cursor: pointer; }
 
 .hero { position: relative; min-height: 700px; padding: 88px max(32px, calc((100vw - var(--container))/2)); display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 6%; overflow: hidden; background: linear-gradient(118deg, color-mix(in srgb, var(--celeste) 18%, var(--negro)), var(--negro) 62%, color-mix(in srgb, var(--profundo) 24%, var(--negro))); }
 .hero-copy { position: relative; z-index: 1; max-width: 530px; padding-block: 88px; }
-.eyebrow { margin: 0 0 16px; color: var(--celeste); font-size: 10px; font-weight: 700; letter-spacing: 2px; line-height: 1.4; }
+.eyebrow { margin: 0 0 16px; color: var(--celeste); font-size: 2rem; font-weight: 700; letter-spacing: 2px; line-height: 1.4; }
 h1, h2, h3, p { margin-top: 0; }
 h1, h2 { font-family: var(--titulo); font-weight: 600; letter-spacing: -.035em; }
 .hero h1 { margin: 0 0 24px; font-size: clamp(50px, 4.7vw, 68px); line-height: 1.04; }
